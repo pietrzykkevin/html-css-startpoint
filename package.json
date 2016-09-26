@@ -1,0 +1,23 @@
+{
+  "name": "html-css-startpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fracz/html-css-startpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fracz/html-css-startpoint/issues"
+  },
+  "homepage": "https://github.com/fracz/html-css-startpoint#readme",
+  "devDependencies": {
+    "browser-sync": "2.16.0",
+    "gulp": "3.9.1"
+  }
+}
