@@ -44,7 +44,7 @@ Your goal is to make a beautiful login form like this one:
   1. Link Materialize's CSS files to your page.
   1. Browse Materialize's CSS and components on their page and find something useful for your login form.
 1. You might need to add some extra CSS styles to your page to set a background, position the element etc.
-1. Commit your work after each logical step (i.e. "Add Materialize CSS", "Change bg from pink to white" etc). If you are comfortable enough, try working with local branches.
+1. Commit your work after each logical step (e.g. "Add Materialize CSS", "Change bg from pink to white" etc). If you are comfortable enough, try working with local branches.
 
 ## Bonus
 
