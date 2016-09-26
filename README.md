@@ -20,7 +20,7 @@
     ```
     npm install -g gulp-cli
     ```
-    NPM is a Node Package Manager (it is used to download stuff you are going to need, more or less). The command above install [gulp](http://gulpjs.com/) globally so it is accessible in your command line. We will use it to facilitate our development process (you will see it in a while).
+    NPM is a Node Package Manager (it is used to download stuff you are going to need, more or less). The command above installs [gulp](http://gulpjs.com/) globally so it is accessible in your command line. We will use it to facilitate our development process (you will see it in a while).
 1. Fork this repository to your account.
 1. Clone it to your desktop.
 1. Go into the project's directory and execute `npm install`. It will download project's specific dependencies declared in `package.json` file (you can safely ignore this fact for now).
@@ -44,6 +44,7 @@ Your goal is to make a beautiful login form like this one:
   1. Link Materialize's CSS files to your page.
   1. Browse Materialize's CSS and components on their page and find something useful for your login form.
 1. You might need to add some extra CSS styles to your page to set a background, position the element etc.
+1. Commit your work after each logical step (i.e. "Add Materialize CSS", "Change bg from pink to white" etc). If you are comfortable enough, try working with local branches.
 
 ## Bonus
 
