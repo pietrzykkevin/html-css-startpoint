@@ -19,7 +19,7 @@ Remember about appropriate error message when the username and password does not
 # Hints
 
 1. Use Materialize CSS framework to style your app.
-1. Hide the app with CSS before user is signed out.
+1. Hide the app with CSS when user is signed out.
 1. After successful login (check if the username and password matches one you have hardcoded), hide the login form and show the application with jQuery.
 1. Collect the data from form with JS and request a cat image from the API (you may find [the docs](http://thecatapi.com/docs.html) useful).
  1. Exapmle request URL: http://thecatapi.com/api/images/get?format=xml&results_per_page=1&size=small&type=png
