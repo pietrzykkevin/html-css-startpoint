@@ -24,7 +24,7 @@ Remember about appropriate error message when the username and password does not
 1. Collect the data from form with JS and request a cat image from the API (you may find [the docs](http://thecatapi.com/docs.html) useful).
  1. Exapmle request URL: http://thecatapi.com/api/images/get?format=xml&results_per_page=1&size=small&type=png
  1. Consume the photo data in XML format and read the data you are interesed in with jQuery.
- 1. If the jQuery course does not introduce how to fetch a data from a remote server, read about [`jQuery.ajax`](http://api.jquery.com/jquery.ajax/) method.
+ 1. If the jQuery course does not introduce how to fetch a data from a remote server, read about [`jQuery.ajax`](http://api.jquery.com/jquery.ajax/) method. [This tutorial](https://www.sitepoint.com/use-jquerys-ajax-function/) might be helpful, too.
 1. When user adds displayed image to favourites, use previously fetched data and jQuery to add next row to favourite cats table.
 1. Don't worry if your favourites cats are lost when you refresh the page - it's normal as we do not persist the list anywhere.
 1. Commit your work after each logical step. If you are comfortable enough, try working with local branches. Write commit messages in english imperative.
