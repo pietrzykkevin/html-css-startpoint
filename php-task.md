@@ -17,7 +17,8 @@
 1. Find some cat photos to serve [😺](https://github.com/maxogden/cats).
 1. Use [Slim framework](http://www.slimframework.com/) to build the API 
  1. create handler for the `api/images/get` URL 
- 1. return XML output similar to what Cat API returns.
+ 1. return XML output similar to what Cat API returns
+ 1. you should at least support the `type` parameter (`size` can be ommited)
 1. Your code should pick a random image from the directory where you have downloaded sample cat photos.
 1. Enhance your frontend code so it now uses your server instead of the Cat API.
 
