@@ -8,15 +8,21 @@ margin: 0;
 
 }
 
-div *{
-  display: inline-block;
-  padding: 20 px;
-  text-align: center;
+.header{
+
+
 }
 
+
 .center{
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
   text-align: center;
   padding: 20px;
+  max-width: 100px;
+  width: 200px;
   margin: 0;
   border-style:  none;
   border: 20;
