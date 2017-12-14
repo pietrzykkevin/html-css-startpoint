@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML, CSS startpoint cat Form</title>
+    <link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catForm.css">
+</head>
+<body>
+
+    <p class="def">abcdef</p>
+
+    <div>
+        <div>
+
+            <h3>Fall in Love with Kittens</h3>
+            <div class="newCatBox">
+
+                <label>Format:</label>
+                <form action="#">
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="png" value="png" checked />
+                        <label for="png">PNG</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="jpg" value="jpg"/>
+                        <label for="jpg">JPG</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="group1" type="radio" id="gif" value="gif" />
+                        <label for="gif">GIF</label>
+                    </p>
+                </form>
+
+                <label>Picture Size:</label>
+                <select class="pictureSize browser-default">
+                    <!--<option value="" disabled selected>Choose your option</option>-->
+                    <option value="small">Small</option>
+                    <option value="med">Medium</option>
+                    <option value="full" selected>Big</option>
+                </select>
+                <a class="addNewKit button waves-effect waves-light btn z-depth-3 size" >Add new Kitten</a>
+            </div>
+        </div>
+
+        <div>
+            <a href="http://thecatapi.com"><img class="catImage" src="http://thecatapi.com/api/images/get?format=src&type=png"></a>
+            <a class=" addToFav button waves-effect waves-light btn z-depth-3 size" >Add to favourites</a>
+        </div>
+
+        <div>
+            <h5>My favourite Cats</h5>
+
+            <table class="myTable striped" style="width:100%">
+                <tr>
+                    <th>ID</th>
+                    <th>URL</th>
+                    <th>Podglad</th>
+                </tr>
+             <!--   <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr> -->
+            </table>
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='catForm.js'></script>
+</body>
+</html>
