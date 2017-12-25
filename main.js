@@ -45,7 +45,6 @@ $(document).ready(() =>{
 
         if($("#Username").val() === "ala" &&
             $("#Password").val() === "ala123"){
-            $('.ok').show();
             window.open("CatForm/catForm.html", "_self");
         }
     });
