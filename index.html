@@ -16,19 +16,25 @@
    <h5 class="">Material Design Text Input With No Extra Markup</h5>
   </div>
 
-  <div class="box input-field validate">
-    <input placeholder="Username" id="Username" type="text" class="size" >
-      <label for="Username" data-error="invalid username hint(ala)"></label>
-  </div>
+  <form id="input" action="">
+      <div class="row box input-field ">
+          <input placeholder="Username" id="Username" name="Username" type="email"
+                 class="validate size" required="" aria-required="true" >
+          <label for="Username"></label>
+      </div>
 
-  <div class="box input-field validate">
-      <input placeholder="Password" id="Password" type="password" class="size" >
-      <label for="Username" data-error="invalid password hint(ala123)"></label>
-  </div>
+      <div class="row box input-field">
+          <input placeholder="Password" id="Password" name="Password" type="password"
+                 class="validate size" required="" aria-required="true" >
+          <label for="Password"></label>
+      </div>
 
-  <div class="box">
-    <a class="button waves-effect waves-light btn z-depth-3 size" >Submit</a>
-  </div>
+
+      <div class="box">
+        <a class="button waves-effect waves-light btn z-depth-3 size">Submit</a>
+      </div>
+
+  </form>
 
  </div>
  <p class="ok">Jest ok!!</p>

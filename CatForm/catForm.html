@@ -9,28 +9,28 @@
 </head>
 <body>
 
-    <p class="def">abcdef</p>
+<p class="def">abcdef</p>
 
-    <div>
-        <div>
+    <div class="container">
+        <div class="mainCatBox">
 
-            <h3>Fall in Love with Kittens</h3>
+            <h4>Fall in Love with Kittens</h4>
             <div class="newCatBox">
 
                 <label>Format:</label>
-                <form action="#">
-                    <p>
-                        <input class="with-gap" name="group1" type="radio" id="png" value="png" checked />
+                <form class="row" action="#">
+                    <div class="row col s4" >
+                        <input class="with-gap " name="group1" type="radio" id="png" value="png" checked />
                         <label for="png">PNG</label>
-                    </p>
-                    <p>
-                        <input class="with-gap" name="group1" type="radio" id="jpg" value="jpg"/>
+                    </div>
+                    <div class="row col s4">
+                        <input class="with-gap " name="group1" type="radio" id="jpg" value="jpg"/>
                         <label for="jpg">JPG</label>
-                    </p>
-                    <p>
-                        <input class="with-gap" name="group1" type="radio" id="gif" value="gif" />
+                    </div>
+                    <div class="row col s4">
+                        <input class="with-gap " name="group1" type="radio" id="gif" value="gif" />
                         <label for="gif">GIF</label>
-                    </p>
+                    </div>
                 </form>
 
                 <label>Picture Size:</label>
@@ -44,12 +44,13 @@
             </div>
         </div>
 
-        <div>
-            <a href="http://thecatapi.com"><img class="catImage" src="http://thecatapi.com/api/images/get?format=src&type=png"></a>
+        <div class="mainPicture">
+
+            <a class= href="http://thecatapi.com"><img class="catImage"> </a>
             <a class=" addToFav button waves-effect waves-light btn z-depth-3 size" >Add to favourites</a>
         </div>
 
-        <div>
+        <div class="mainTable">
             <h5>My favourite Cats</h5>
 
             <table class="myTable striped" style="width:100%">
