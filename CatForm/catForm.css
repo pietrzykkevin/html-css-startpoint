@@ -1,6 +1,4 @@
 
-
-
 .def {
     display: none;
 }
@@ -43,6 +41,13 @@
     background-color: #424242;
 }
 
+
+.addNewKit{
+
+    position: relative;
+    margin-top: 50px;
+    align-content: left;
+}
 
 .container{
     display: grid;
