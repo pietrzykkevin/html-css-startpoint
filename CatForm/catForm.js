@@ -3,7 +3,7 @@ $(document).ready(function(){
     function getCatLink(){
         const pictureSize = $(".pictureSize :selected").val();
         const pictureType = $('input[name="group1"]:checked').val();
-        return "http://thecatapi.com/api/images/get?format=xml&type=" + pictureType + "&size=" + pictureSize + "&results_per_page=1";
+        return "https://thecatapi.com/api/images/get?format=xml&type=" + pictureType + "&size=" + pictureSize + "&results_per_page=1";
 
     }
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
             const newID = $(".catImage").attr("data-id");
             const newURL = $catImage.attr("src");
             const URLView = '<a href="' + newURL + '"  target="_blank">' + newURL + '</a>';
-            const newInsight = '<a href="http://thecatapi.com"><img src="' + newURL + '"></a>';
+            const newInsight = '<a href="https://thecatapi.com"><img src="' + newURL + '"></a>';
             $(".myTable").append("<tr> <td>" + newID + "</td> <td>" + URLView + "</td> <td> " + newInsight + "</td> </tr>");
         }
     });
